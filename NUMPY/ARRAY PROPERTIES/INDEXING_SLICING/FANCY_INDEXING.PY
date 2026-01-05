@@ -6,5 +6,6 @@ import numpy as np
 
 arr = np.array([1,2,3,4,5,6,7,8,9,10])
 
-fancy_indx_arr = arr[[0,2,4,6,8]]
-print(fancy_indx_arr)
+fancy_indx_arr = arr[[0,2,4,6,8]]       # WE PASSES HERE IN LIST FORM 
+print(fancy_indx_arr)                  # IT IS CREATES A COPY OF OUR ACTUAL ARRAY WHEN IF WE CHNAGE OR DO SOMETHING OPERATION IT IS NOT AFFECTS OUT ORIGANAL ONE ARRAY
+print(type(fancy_indx_arr))
