@@ -9,7 +9,7 @@ READING DATA FOR THIS PANDAS PROVIDES TWO BUIT-IN FUNCTIONS FOR IT
 
 import pandas as pd
 
-file = pd.read_csv("PANDAS\FOUNDATION\FILE_READING\sales_data_sample.csv", encoding="latin1")
+file = pd.read_csv("PANDAS/FOUNDATION/FILE_READING/sales_data_sample.csv", encoding="latin1")
 
 print("READING FIRST 10 LINES OF THE DATA:---")
 print(file.head(10))

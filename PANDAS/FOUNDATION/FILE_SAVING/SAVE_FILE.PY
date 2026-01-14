@@ -9,6 +9,6 @@ Data = {
 File = pd.DataFrame(Data)
 print(File)
 
-# File.to_csv("OUTPUT.csv", index=False)
-# File.to_json("OUTPUT.json", index=False)
-File.to_excel("OUTPUT.xlsx", index=False)
+# File.to_csv("OUTPUT.csv", index=False)                #SAVE AS CSV FILE WITH FOLLOWIGN DATA
+# File.to_json("OUTPUT.json", index=False)              #SAVE AS JSON FILE WITH FOLLOWING DATA
+File.to_excel("OUTPUT.xlsx", index=False)               #SAVE AS EXCEL FILE WITH FOLLOWIGN DATA 
