@@ -1,0 +1,11 @@
+
+
+
+import pandas as pd
+
+data = {
+    "NAME":['RAJ', 'RAM', 'KUMAR', 'KUNAL', 'SHUBHAM', 'DHANRAJ', 'SAI', 'UDAV'],
+    "AGE":[21, 20, 32, 18, 19, 34, 37, 54],
+    "SALARY": [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000],
+    "PERFORMANCE SCORE":[80,86,84,90,83,76,87,90]
+}
