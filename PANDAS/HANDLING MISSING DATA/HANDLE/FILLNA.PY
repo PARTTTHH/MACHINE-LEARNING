@@ -13,6 +13,7 @@ SYNTAX:-
         ex - df3["AGE"].fillna(df3['AGE'].mean(), inplace=True)
              df3["SALARY"].fillna(df3['SALARY'].median(), inplace=True)
 
+        ALSO WE HAVE ONE MORE SPECIAL OPTION WHICH IS FILL MISSING VALUES USING FORWARD-FILL AND BACKWARD-FILL
         
 """
 
