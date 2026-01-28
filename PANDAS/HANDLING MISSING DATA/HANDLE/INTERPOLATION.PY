@@ -54,5 +54,4 @@ NOTE:-
 NOTE:
 Polynomial interpolation requires the SciPy library.
 If SciPy is not installed, Pandas will raise an ImportError.
-
 """

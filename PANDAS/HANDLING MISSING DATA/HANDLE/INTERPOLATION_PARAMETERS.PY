@@ -4,7 +4,7 @@ ATTRIBUTES / PARAMETERS:- THESE ARE CONTROL BEHAVIOR
         HOW MANY NaNs / None ARE ALLOWED TO BE FILLED
     SYNTAX:-
         df.interpolate(method='----', limit=N)
-    FILL ONLY N CONSECUTIVE MISSING VALUES, LEAVE THE REST UNTOUCHED
+    FILL ONLY N MISSING VALUES, LEAVE THE REST UNTOUCHED
 
 2. axis:-
         CONTROL DIRECTION OF INTERPOLATION OPERATION
@@ -20,7 +20,7 @@ ATTRIBUTES / PARAMETERS:- THESE ARE CONTROL BEHAVIOR
             order = 3 → more bend
 
 4. limit_direction :-
-        THIS PARAMETER DECIDES THE DIRECTION IN WHICH THE VALID VALUES GET PROPAGATED TO FILL THE NaNs
+        DECIDES THE DIRECTION IN WHICH THE VALID VALUES GET PROPAGATED TO FILL THE NaNs
     SYNTAX:-
         df.interpolate(method='---', limit_direction="---")
 
@@ -30,7 +30,7 @@ ATTRIBUTES / PARAMETERS:- THESE ARE CONTROL BEHAVIOR
     3. both --- Fills NaNs using both the previous and next valid observations
 
 5. limit_area :-
-        THIS DECIDES WHICH NaNs ARE ALLOWED TO BE FILLED
+        DECIDES WHICH NaNs ARE ALLOWED TO BE FILLED
     SYNTAX:-
         df.interpolate(method='---', limit_area="---")
     THERE ARE TWO OPTIONS

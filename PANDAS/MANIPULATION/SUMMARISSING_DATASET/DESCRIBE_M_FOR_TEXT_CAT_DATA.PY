@@ -1,11 +1,10 @@
 """
-WE CAN ALSO USE describe() METHOD FOR TEXT OR CATEGRRICAL DATA 
+describe() METHOD FOR TEXT OR CATEGRRICAL DATA 
 IT RETURNS THIS INFO 
 caount -> NUMS OF NON-MISSIGN VALUES
 unique -> NUMBER OF DISTINCT VALUES  [city: ['pune', 'kolhapur', 'mumbai', 'kolhapur'] --- 3
 top    -> MOST FREQUENT VALUE (MODE)
 freq   -> HOW MANY TIMES TOP VALUES APPERS
-
 
 -SYNTAX --- 
             df.describe(include="object")

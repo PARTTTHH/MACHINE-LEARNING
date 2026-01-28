@@ -1,14 +1,14 @@
 """
 UPDATING DATA IN A ROW 
-FOR THAT WE HAVE TWO OPTIONS
+HAVE TWO OPTIONS
 
     1. UPDATE SINGLE SPECIFIC VALUE
-            FOR THAT WE HAVE .loc[] METHOD 
+            .loc[] METHOD 
     SYNTAX:-
         df.loc[row_index, "Column_name"] = New_Value
 
     2. UPDATE A EXISTING COLUMN
-            FOR THAT WE USE CONDITION BASED UPDATE
+           CONDITION BASED UPDATE
         df["SALARY"] = df["SALARY"] * 1.10
 
 """

@@ -1,7 +1,6 @@
 """
 QUATION--- WHATS IS THE NUMBERS OF ROWS AND COLUMNS OF A DATASET
-
-FOR THAT PANDAS PROVIDES .shape -ATTRIBUTE
+        .shape -ATTRIBUTE
 
 SYNTAX --- 
                 DataFrame.shape

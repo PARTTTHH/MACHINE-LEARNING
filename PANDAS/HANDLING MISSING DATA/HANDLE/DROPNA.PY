@@ -1,8 +1,6 @@
 """
-AFTER DETECTION OF MISSING VALUES WE HAVE TWO OPTIONS TO HANDLE THAT
-
 1. REMOVE THAT DIRECTLY
-    FOR THAT WE HAVE A BUIT-IN METHOD dropna()
+    dropna()
 SYNTAX:-
         df.dropna()  --> (axis=0/1 inplace = True/False)
                             axis = 0 MEANS REMOVE THAT ROW
@@ -12,7 +10,7 @@ SYNTAX:-
 
 
 2. REPLACE THAT WITH ANOUTHER VALUE 
-    FOR THAT WE HAVE ANOTHER BUIT-IN METHOS PROVIDED BY PANDAS WHICH IS fillna()
+    fillna()
 SYNTAX:-
         df.fillna(value, inplace=True/False)
                         #     -- SAME WORK LIKE dropna() METHODS inplace
@@ -41,8 +39,7 @@ print()
 #LETS REMOVE ALL NULL OR MISSING VALUES
 print("DATAFRAME-2")
 df2 = df.dropna(inplace=False)                  #CREATES A NEW DATAFRAME WITH NO MISSING VALUES ALL REMOVES WITH THE HELP OF dropna() METHOD
-print(df2)                                      #NOTE :- NY DEFAULT PANDAS REMOVES ROW-WISE MISSING VALUES MEANS axis=0 SO SAME OUTPUT COMES WITH axis=0 AND WITHOUT PASSING AXIS LIEK THIS EXAMPLE
-
+print(df2)                                     
 print()
 print()
 

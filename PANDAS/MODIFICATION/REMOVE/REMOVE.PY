@@ -1,7 +1,7 @@
 #REMOVING COLUMN FROM DATAFRAME
-# FOR THAT WE HAVE .drop(columns = [columns_name], inplace=True) METHOD
-                                                        # /\  THIS ATTRIBUTES GIVES PERMISSION TO MOFIFY MAIN DATAFRAME
-                                                        # OTHERWISE IT RETURNS A COPY OF ORIGNAL "CAN'T MAKE ANY CHANEG IN ORIGINAL DATFRAME"
+        # .drop(columns = [columns_name], inplace=True) METHOD
+                                            # /\  THIS ATTRIBUTES GIVES PERMISSION TO MOFIFY MAIN DATAFRAME
+                                             # OTHERWISE IT RETURNS A COPY OF ORIGNAL "CAN'T MAKE ANY CHANEG IN ORIGINAL DATFRAME"
 """
 SYNTAX:-
         df.drop(solumns=["columns name"]) --- THIS IS FOR REMOVING SINGLE COLUMN

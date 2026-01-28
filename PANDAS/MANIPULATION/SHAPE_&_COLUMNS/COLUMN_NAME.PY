@@ -1,7 +1,7 @@
 """
 QUATION--- WHATS IS THE NAME OF COLUMNS IN A DATASET
 
-FOR THAT PANDAS PROVIDES .columns -ATTRIBUTE
+        .columns -ATTRIBUTE
 
 SYNTAX --- 
                 DataFrame.columns
